@@ -4,6 +4,8 @@ sources:
     - name: COVID19_Epidemiological_Data
       description: 'Ceci est un test.'
       database: COVID19_Epidemiological_Data
+      quoting:
+        database : true
       schema: PUBLIC
       tables:
         - name: DEMOGRAPHICS
